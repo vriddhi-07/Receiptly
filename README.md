@@ -35,7 +35,8 @@
 
 ## ⚙️ How to Run the Project Locally
 
-> ✅ Prerequisites: Make sure you have **Node.js**, **Python 3.11+**, **MongoDB**, and **pip** installed.
+> Prerequisites: Make sure you have **Node.js**, **Python 3.11+**, **MongoDB**, and **pip** installed.
+> Gemini API Key: Generate a Gemini API key and paste it in the .env file (the .env file can be found in the backend folder)
 
 ---
 
