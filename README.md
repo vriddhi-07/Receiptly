@@ -89,5 +89,15 @@ npm install
 npm start
 ```
 
+# Steps for Testing 
+
+In a new terminal:
+
+```bash
+cd backend 
+npm install
+npm test
+```
+
 ##  Demo Video
 - [Receiptly_Demo_Video](https://youtu.be/TGZ0zK84E-c?si=EmldNevfzTlXnxzk)
