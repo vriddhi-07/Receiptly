@@ -4,9 +4,6 @@ const Item = require("../models/Item");
 
 let mongoServer;
 
-// =========================
-//   SETUP + TEARDOWN
-// =========================
 beforeAll(async () => {
   mongoServer = await MongoMemoryServer.create();
   const uri = mongoServer.getUri();
@@ -24,11 +21,9 @@ beforeEach(async () => {
   await Item.deleteMany({});
 });
 
-// =========================
-//       TEST CASES
-// =========================
+// TEST CASES
 
-describe("MongoDB + Mongoose Unit Tests (No API)", () => {
+describe("MongoDB + Mongoose Unit Tests", () => {
 
   // 1. Insert test
   test("should insert an item into the database", async () => {
